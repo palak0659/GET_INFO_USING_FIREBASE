@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/tv_name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_college"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:text="@string/app_name"
+        android:textColor="#00BCD4"
+        android:textSize="16sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginStart="10sp" />
+
+    <TextView
+        android:id="@+id/tv_hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:padding="5sp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:padding="5sp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:padding="5sp"
+        android:text="@string/app_name"
+        android:textColor="@color/teal_700"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

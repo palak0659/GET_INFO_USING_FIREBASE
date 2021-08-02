@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id = "@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/name"
+        android:inputType="text"
+        android:privateImeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id = "@+id/inputCollege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/college"
+        android:inputType="text"
+        android:privateImeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id = "@+id/inputfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/field"
+        android:inputType="text"
+        android:privateImeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id = "@+id/inputHobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/hobbies"
+        android:inputType="text"
+        android:privateImeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id = "@+id/inputLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/location"
+        android:inputType="text"
+        android:privateImeOptions="actionNext"
+        tools:ignore="Autofill" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/btn_send"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="20dp"
+        android:text="Save Information"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/btn_getdata"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="20dp"
+        android:text="Get Information"
+        />
+
+
+
+</LinearLayout>
